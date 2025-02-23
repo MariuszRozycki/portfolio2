@@ -1,24 +1,30 @@
 import Header from "./Header/Header";
+import HomeHeading from "./HomeHeading/HomeHeading";
 import { HamburgerMenu, Nav } from "./Nav";
 import Logo from "./Logo/Logo";
 import Footer from "./Footer/Footer";
 import AboutShort from "./AboutShort/AboutShort";
 import SocialMedia from "./SocialMedia/SocialMedia";
-import AboutLonger from "./AboutLonger/AboutLonger";
+import AboutPoints from "./AboutPoints/AboutPoints";
 import SectionProjects from "./SectionProjects/SectionProjects";
 import ProjectCard from "./ProjectCard/ProjectCard";
 import ModalMessageComponents from "./ModalMessageComponent/ModalMessageComponent";
+import VideoContainer from "./VideoContainer/VideoContainer";
+import WatchingYou from "./WatchingYou/WatchingYou";
 
 export {
   Header,
+  HomeHeading,
   HamburgerMenu,
   Nav,
   Logo,
   Footer,
   AboutShort,
   SocialMedia,
-  AboutLonger,
+  AboutPoints,
   SectionProjects,
   ProjectCard,
   ModalMessageComponents,
+  VideoContainer,
+  WatchingYou,
 };

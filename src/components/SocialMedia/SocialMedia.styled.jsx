@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const SocialMedia = styled.section.attrs({ className: "social-media-section" })`
+export const SocialMedia = styled.section.attrs({ className: "social-media-section mt-4" })`
   .social-media {
     display: flex;
     justify-content: flex-start;

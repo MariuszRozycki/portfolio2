@@ -1,3 +1,21 @@
 .card {
-  background-color: var(--color-elegance);
+  background-color: var(--color-primary);
+  transition: var(--transition-standard);
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--color-secondary);
+  }
+
+  a {
+    background-color: var(--color-yellow);
+    color: black;
+    border: 1px solid black;
+
+    &:hover {
+      background-color: var(--color-orange);
+      border: 1px solid black;
+      color: whitesmoke;
+    }
+  }
 }

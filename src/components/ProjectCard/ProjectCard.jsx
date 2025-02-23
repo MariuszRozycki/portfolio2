@@ -21,13 +21,19 @@ function ProjectCard({ title, imgSrc, description, btnHrefLive, btnHrefGitHub })
           <Card.Title className='fs-6'>{title}</Card.Title>
           <Card.Text style={{ height: "6rem" }}>{description}</Card.Text>
 
-          <Button className='me-2' href={btnHrefLive} target='_blank' rel='noopener noreferrer'>
-            Live site
-          </Button>
+          <div className='button-wrapper d-flex gap-2'>
+            <Button href={btnHrefLive} target='_blank' rel='noopener noreferrer'>
+              Live site
+            </Button>
 
-          <Button variant='primary' href={btnHrefGitHub} target='_blank' rel='noopener noreferrer' onClick={handleGitHubClick}>
-            GitHub
-          </Button>
+            <Button href={btnHrefGitHub} target='_blank' rel='noopener noreferrer' onClick={handleGitHubClick}>
+              GitHub
+            </Button>
+
+            <Button href={btnHrefGitHub} target='_blank' rel='noopener noreferrer' onClick={handleGitHubClick}>
+              Details
+            </Button>
+          </div>
         </Card.Body>
       </Card>
 

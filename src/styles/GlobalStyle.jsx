@@ -118,8 +118,8 @@ ${
   --border-radius-circle: 50%;
 
   /* box-shadow */
-  --box-shadow-null: 0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(0, 0, 0, 0);
-  --box-shadow-light: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);
+  --box-shadow-null: 0 0 0 rgba(227, 227, 227, 0.2), 0 0 0 rgba(0, 0, 0, 0);
+  --box-shadow-light: 0 4px 8px rgba(82, 45, 178, 0.56), 0 6px 20px rgba(82, 45, 178, 0.56);
   --box-shadow-medium: 0 4px 8px rgba(0, 0, 0, 0.5), 0 6px 20px rgba(0, 0, 0, 0.5);
   --box-shadow-hard: 0 4px 8px rgba(0, 0, 0, 0.9), 0 6px 20px rgba(0, 0, 0, 0.9);
 
@@ -185,7 +185,8 @@ ${
   }
 
   p, a, ul, li, span, input, textarea {
-    font-family: "Mitr", serif;
+    ${"" /* font-family: "Mitr", serif; */}
+    font-family: monospace;
     font-size: 16px;
     color: var(--color-denary);
     font-weight: 200;
@@ -204,6 +205,10 @@ ${
 
   button {
     color: var(--color-black);
+  }
+
+  span[class*="styles-module_blinkingCursor__yugAC"] {
+    animation-duration: 1.2s;
   }
 `;
 
