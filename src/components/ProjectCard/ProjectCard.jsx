@@ -21,7 +21,7 @@ function ProjectCard({ title, imgSrc, description, btnHrefLive, btnHrefGitHub })
           <Card.Title className='fs-6'>{title}</Card.Title>
           <Card.Text style={{ height: "6rem" }}>{description}</Card.Text>
 
-          <div className='button-wrapper d-flex gap-2'>
+          <div className='button-wrapper gap-2'>
             <Button href={btnHrefLive} target='_blank' rel='noopener noreferrer'>
               Live site
             </Button>

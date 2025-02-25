@@ -1,8 +1,6 @@
 import styled from "styled-components";
-import { fadeIn } from "../../styles/animations";
+import { fadeInDown } from "../../styles/animations";
 
 export const SectionProjects = styled.section.attrs({ className: "projects-section mt-5" })`
-  overflow: hidden;
-  animation-delay: 1s;
-  animation: ${fadeIn} 1.2s linear forwards;
+  animation: ${fadeInDown} 3s linear forwards;
 `;

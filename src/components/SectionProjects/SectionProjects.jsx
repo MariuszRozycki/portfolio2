@@ -1,55 +1,37 @@
 import * as S from "./SectionProjects.styled";
 import { useInView } from "react-intersection-observer";
+import { useFetchProjectData } from "../../hooks";
 import { Row } from "react-bootstrap";
 import ProjectCard from "../ProjectCard/ProjectCard";
 
 const SectionProjects = ({ title }) => {
+  const { projects, loading, error } = useFetchProjectData();
+  console.log(projects);
+
   const [ref, inView] = useInView({
-    threshold: 0.2,
+    threshold: 0.5,
     triggerOnce: true,
     rootMargin: "0px 0px -50px 0px",
   });
+
   return (
     <S.SectionProjects ref={ref}>
-      {inView && (
+      {loading && <p>Loading projects...</p>}
+      {error && <p>Error: {error}</p>}
+      {inView && !loading && !error && (
         <>
           <h3 className='h4'>{title}</h3>
           <Row className='g-3'>
-            <ProjectCard
-              title='Holidaze'
-              imgSrc='/pictures/holidaze-image/holidaze.jpg'
-              description='This is description of Holidaze project'
-              btnHrefLive='https://mariuszrozycki.github.io/holidaze/'
-              btnHrefGitHub='https://github.com/MariuszRozycki/holidaze'
-            />
-            <ProjectCard
-              title='E-Com'
-              imgSrc='/pictures/holidaze-image/e-com.jpg'
-              description='This is description of E-com project'
-              btnHrefLive='https://ecom-react-mariusz.netlify.app/'
-              btnHrefGitHub='https://github.com/MariuszRozycki/e-com-store-react'
-            />
-            <ProjectCard
-              title='Auction house'
-              imgSrc='/pictures/holidaze-image/auction-house.jpg'
-              description='This is description of Auction house Gavel project'
-              btnHrefLive='https://genuine-squirrel-c1ec8c.netlify.app/'
-              btnHrefGitHub='https://github.com/MariuszRozycki/auction-gavel'
-            />
-            <ProjectCard
-              title='My class'
-              imgSrc='/pictures/holidaze-image/my-class.jpg'
-              description='This is description of My class project'
-              btnHrefLive='https://coruscating-melomakarona-28cd35.netlify.app/'
-              btnHrefGitHub='https://github.com/MariuszRozycki/my-class'
-            />
-            <ProjectCard
-              title="Flower Power - florist's shop"
-              imgSrc='/pictures/holidaze-image/flower-power.jpg'
-              description='This is description of Flower Power project'
-              btnHrefLive='https://mariuszrozycki.info/flower-power/'
-              btnHrefGitHub='pureWordPress'
-            />
+            {projects.map((project) => (
+              <ProjectCard
+                key={project.id}
+                title={project.title}
+                imgSrc={project.imgSrc}
+                description={project.description}
+                btnHrefLive={project.btnHrefLive}
+                btnHrefGitHub={project.btnHrefGitHub}
+              />
+            ))}
           </Row>
         </>
       )}

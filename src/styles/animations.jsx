@@ -25,16 +25,12 @@ export const fadeInOut = keyframes`
   }
 `;
 
-export const fadeInFromDown = keyframes`
+export const fadeInDown = keyframes`
   from {
-    opacity: 0;
     height: 0;
-    transform: translateY(-100px);
   }
   to {
     height: 100%;
-    opacity: 1;
-    transform: translateY(0);
   }
 `;
 

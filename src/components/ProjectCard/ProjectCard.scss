@@ -1,10 +1,18 @@
+@use "../../styles/breakpoints";
+
 .card {
+  container-type: inline-size;
   background-color: var(--color-primary);
   transition: var(--transition-standard);
   cursor: pointer;
 
   &:hover {
     background-color: var(--color-secondary);
+  }
+
+  .button-wrapper {
+    display: flex;
+    flex-direction: column;
   }
 
   a {
@@ -16,6 +24,14 @@
       background-color: var(--color-orange);
       border: 1px solid black;
       color: whitesmoke;
+    }
+  }
+}
+
+@container (min-width: 300px) {
+  .card {
+    .button-wrapper {
+      flex-direction: row;
     }
   }
 }
