@@ -1,37 +1,70 @@
 @use "../../styles/breakpoints";
 
-.card {
+.project-card.card {
   container-type: inline-size;
-  background-color: var(--color-primary);
-  transition: var(--transition-standard);
+  background: var(--color-elegance);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s ease;
   cursor: pointer;
 
   &:hover {
-    background-color: var(--color-secondary);
+    background: rgb(0, 0, 0);
+  }
+
+  .card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .button-wrapper {
     display: flex;
     flex-direction: column;
-  }
+    gap: 8px;
 
-  a {
-    background-color: var(--color-yellow);
-    color: black;
-    border: 1px solid black;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 400;
+      padding: 8px 10px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      letter-spacing: 0.5px;
+      border: none;
 
-    &:hover {
-      background-color: var(--color-orange);
-      border: 1px solid black;
-      color: whitesmoke;
+      span {
+        display: none;
+      }
     }
   }
 }
 
 @container (min-width: 300px) {
-  .card {
+  .project-card.card {
     .button-wrapper {
       flex-direction: row;
+
+      // a {
+      //   padding: 10px;
+      // }
+    }
+  }
+}
+
+@media (min-width: breakpoints.get(sm)) {
+  .card {
+    .button-wrapper {
+      a {
+        span {
+          display: block;
+        }
+      }
     }
   }
 }

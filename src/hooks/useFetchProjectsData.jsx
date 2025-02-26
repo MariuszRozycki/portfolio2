@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
-import { projectsData } from "../data/projectsData";
 
-const useFetchProjectData = () => {
+const useFetchProjectData = (projectsData) => {
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -16,7 +15,7 @@ const useFetchProjectData = () => {
         setLoading(false);
       }
     }, 1000);
-  }, []);
+  }, [projectsData]);
 
   return { projects, loading, error };
 };

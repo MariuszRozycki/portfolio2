@@ -14,7 +14,7 @@ const AboutPoints = () => {
   return (
     <S.AboutPoints>
       <>
-        <h3 className='h4'>About me</h3>
+        <h3 className='h4 mt-5'>About me</h3>
         <Typewriter words={fullText} cursor cursorStyle='|' typeSpeed={30} deleteSpeed={0} delaySpeed={1000} loop={0} />
       </>
     </S.AboutPoints>

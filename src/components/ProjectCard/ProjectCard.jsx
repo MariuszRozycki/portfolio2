@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { Col, Button, Card } from "react-bootstrap";
-import ModalMessageComponents from "../ModalMessageComponent/ModalMessageComponent";
+import { ModalMessageComponents, ModalProjectDetails } from "../../components";
 import "./ProjectCard.scss";
 
-function ProjectCard({ title, imgSrc, description, btnHrefLive, btnHrefGitHub }) {
+function ProjectCard({ title, imgSrc, description, btnHrefLive, btnHrefGitHub, project }) {
   const [modalShow, setModalShow] = useState(false);
+  const [modalDetailsShow, setModalDetailsShow] = useState(false);
 
   const handleGitHubClick = (e) => {
     if (btnHrefGitHub === "pureWordPress") {
@@ -15,32 +16,47 @@ function ProjectCard({ title, imgSrc, description, btnHrefLive, btnHrefGitHub })
 
   return (
     <Col sm={6} md={4}>
-      <Card>
-        <Card.Img style={{ height: "11rem", objectPosition: "top" }} className='object-fit-cover' variant='top' src={imgSrc} />
+      <Card className='project-card'>
+        <Card.Img
+          style={{ height: "11rem", objectPosition: "top" }}
+          className='object-fit-cover'
+          variant='top'
+          src={imgSrc}
+          alt={title}
+        />
         <Card.Body>
-          <Card.Title className='fs-6'>{title}</Card.Title>
-          <Card.Text style={{ height: "6rem" }}>{description}</Card.Text>
+          <Card.Title className='fs-5 fw-bold'>{title}</Card.Title>
+          <Card.Text>{description}</Card.Text>
 
-          <div className='button-wrapper gap-2'>
-            <Button href={btnHrefLive} target='_blank' rel='noopener noreferrer'>
+          <div className='button-wrapper'>
+            <Button className='gap-2' href={btnHrefLive} target='_blank'>
+              <span>
+                <i className='bi bi-window-fullscreen'></i>
+              </span>
               Live site
             </Button>
-
-            <Button href={btnHrefGitHub} target='_blank' rel='noopener noreferrer' onClick={handleGitHubClick}>
+            <Button className='gap-2' href={btnHrefGitHub} target='_blank' onClick={handleGitHubClick}>
+              <span>
+                <i className='bi bi-github'></i>
+              </span>
               GitHub
             </Button>
-
-            <Button href={btnHrefGitHub} target='_blank' rel='noopener noreferrer' onClick={handleGitHubClick}>
+            <Button className='gap-2 d-flex justify-content-center align-items-center' onClick={() => setModalDetailsShow(true)}>
+              <span>
+                <i className='bi bi-info-circle'></i>
+              </span>
               Details
             </Button>
           </div>
         </Card.Body>
       </Card>
 
+      <ModalProjectDetails show={modalDetailsShow} onHide={() => setModalDetailsShow(false)} project={project} />
+
       <ModalMessageComponents show={modalShow} onHide={() => setModalShow(false)} title='This project is built with pure WordPress'>
-        <p className='text-primary-emphasis'>
-          The source code of project <span className='fw-semibold text-primary-emphasis'>{title}</span> is not available on GitHub
-          because this project was created using pure WordPress without custom coding.
+        <p>
+          The source code of <span className='fw-semibold'>{title}</span> is not available on GitHub because this project was created
+          using pure WordPress without custom coding.
         </p>
       </ModalMessageComponents>
     </Col>

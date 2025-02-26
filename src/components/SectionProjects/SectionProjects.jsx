@@ -1,40 +1,19 @@
 import * as S from "./SectionProjects.styled";
-import { useInView } from "react-intersection-observer";
 import { useFetchProjectData } from "../../hooks";
-import { Row } from "react-bootstrap";
-import ProjectCard from "../ProjectCard/ProjectCard";
+import { Projects } from "../../components";
+import { projectsCommercialData, projectsDataFirstYear, projectsDataSecondYear } from "../../data/projectsData";
 
-const SectionProjects = ({ title }) => {
-  const { projects, loading, error } = useFetchProjectData();
-  console.log(projects);
+const SectionProjects = () => {
+  const { loading, error } = useFetchProjectData([...projectsCommercialData, ...projectsDataFirstYear, ...projectsDataSecondYear]);
 
-  const [ref, inView] = useInView({
-    threshold: 0.5,
-    triggerOnce: true,
-    rootMargin: "0px 0px -50px 0px",
-  });
+  if (loading) return <p>Loading projects...</p>;
+  if (error) return <p>Error: {error}</p>;
 
   return (
-    <S.SectionProjects ref={ref}>
-      {loading && <p>Loading projects...</p>}
-      {error && <p>Error: {error}</p>}
-      {inView && !loading && !error && (
-        <>
-          <h3 className='h4'>{title}</h3>
-          <Row className='g-3'>
-            {projects.map((project) => (
-              <ProjectCard
-                key={project.id}
-                title={project.title}
-                imgSrc={project.imgSrc}
-                description={project.description}
-                btnHrefLive={project.btnHrefLive}
-                btnHrefGitHub={project.btnHrefGitHub}
-              />
-            ))}
-          </Row>
-        </>
-      )}
+    <S.SectionProjects>
+      <Projects title='Commercial projects' projectData={projectsCommercialData} />
+      <Projects title="Second year student's projects" projectData={projectsDataSecondYear} />
+      <Projects title="First year student's projects" projectData={projectsDataFirstYear} />
     </S.SectionProjects>
   );
 };

@@ -14,7 +14,7 @@ const Home = () => {
           <AboutShort />
           <SocialMedia />
           <AboutPoints />
-          <SectionProjects title="Student's projects" />
+          <SectionProjects />
         </div>
       </S.Home>
     </Container>

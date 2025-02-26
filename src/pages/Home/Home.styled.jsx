@@ -9,7 +9,7 @@ export const Home = styled.div.attrs({ className: "home outlet-content" })`
 
     .about-longer-section,
     .projects-section {
-      margin-top: 50px;
+      margin-bottom: 50px;
     }
   }
 `;

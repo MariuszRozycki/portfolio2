@@ -7,8 +7,10 @@ import AboutShort from "./AboutShort/AboutShort";
 import SocialMedia from "./SocialMedia/SocialMedia";
 import AboutPoints from "./AboutPoints/AboutPoints";
 import SectionProjects from "./SectionProjects/SectionProjects";
+import Projects from "./SectionProjects/Projects/Projects";
 import ProjectCard from "./ProjectCard/ProjectCard";
 import ModalMessageComponents from "./ModalMessageComponent/ModalMessageComponent";
+import ModalProjectDetails from "./ModalProjectDetails/ModalProjectDetails";
 import VideoContainer from "./VideoContainer/VideoContainer";
 import WatchingYou from "./WatchingYou/WatchingYou";
 
@@ -23,8 +25,10 @@ export {
   SocialMedia,
   AboutPoints,
   SectionProjects,
+  Projects,
   ProjectCard,
   ModalMessageComponents,
+  ModalProjectDetails,
   VideoContainer,
   WatchingYou,
 };
