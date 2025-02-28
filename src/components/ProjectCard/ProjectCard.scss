@@ -21,6 +21,10 @@
     text-overflow: ellipsis;
   }
 
+  .technologies-stack {
+    height: 230px;
+  }
+
   .button-wrapper {
     display: flex;
     flex-direction: column;
@@ -49,10 +53,6 @@
   .project-card.card {
     .button-wrapper {
       flex-direction: row;
-
-      // a {
-      //   padding: 10px;
-      // }
     }
   }
 }

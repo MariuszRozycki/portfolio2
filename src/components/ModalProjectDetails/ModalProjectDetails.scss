@@ -17,11 +17,13 @@
     color: black;
   }
 
-  h4 {
+  h4,
+  h5 {
     font-family: "Source Sans 3", serif;
     font-size: 18px;
     font-weight: $font-weight-semibold;
     margin-top: 20px;
+    margin-bottom: 8px;
   }
 
   span {

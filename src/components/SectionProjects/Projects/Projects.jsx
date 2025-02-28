@@ -25,6 +25,7 @@ const Projects = ({ title, projectData }) => {
                 description={project.description}
                 btnHrefLive={project.btnHrefLive}
                 btnHrefGitHub={project.btnHrefGitHub}
+                techStack={project.techStack}
               />
             ))}
           </Row>

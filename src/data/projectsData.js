@@ -33,6 +33,19 @@ export const projectsCommercialData = [
       <li><span>SCSS:</span> preprocessor scripting language that extends CSS by adding features like variables, nesting, mixins, and functions, making stylesheets more maintainable and dynamic.</li>
     </ul>
     `,
+    techStack: `
+     <h4 class="h5 fw-bold">Technologies stack:</h4>
+    <ul>
+      <li><span>- React</span></li>
+      <li><span>- React-Router</span></li>
+      <li><span>- Vite</span></li>
+      <li><span>- React-Bootstrap</span></li>
+      <li><span>- Bootstrap</span></li>
+      <li><span>- Scss, Css</span></li>
+      <li><span>- AdobeXD</span></li>
+      <li><span>- Git, GitHub</span></li>
+      <li><span>- Deploy on CyberFolks</span></li>
+    </ul>`,
     btnHrefLive: "https://tour-guide.pl/",
     btnHrefGitHub: "https://github.com/MariuszRozycki/tour-guide-bootstrap",
   },
@@ -41,6 +54,16 @@ export const projectsCommercialData = [
     title: "Skin & Beauty",
     imgSrc: "/pictures/skin-beauty/skin-beauty.jpg",
     description: `Skin & Beauty is a website for a beauty salon in Oslo. On the website you can browse treatments, read about the details of the treatments and make an appointment. The website has a "home" section and a contact section.`,
+    techStack: `
+     <h4 class="h5 fw-bold">Technologies stack</h4>
+    <ul>
+      <li><span>- JavaScript</span></li>
+      <li><span>- Css</span></li>
+      <li><span>- Html</span></li>
+      <li><span>- Git</span></li>
+      <li><span>- GitHub</span></li>
+      <li><span>- Deploy on OneCom</span></li>
+    </ul>`,
     btnHrefLive: "https://alenaskinbeauty.no/",
     btnHrefGitHub: "https://github.com/MariuszRozycki/skin-beauty",
   },
@@ -64,11 +87,13 @@ export const projectsDataSecondYear = [
     <h4>Features</h4>
     <h5>Not logged customer-facing features</h5>
     <ul>
-      <li>- View a list of venues.</li>
-      <li>- Search for venues by keyword.</li>
+      <li>- A user may view a list of Venues.</li>
+      <li>- A user may search for a specific Venue.</li>
       <li>- A user may view a specific Venue page by id.</li>
       <li>- A user may view a calendar with available dates for a Venue.</li>
-      <li>- A registered user may logout.</li>  
+      <li>- A user with a stud.noroff.no email may register as a customer.</li>  
+      <li>- A user with a stud.noroff.no email may register as a Venue manager.</li>  
+      <li>- A registered user may login.</li>  
     </ul>
     <h5>Logged customer-facing features</h5>
      <ul>
@@ -76,10 +101,30 @@ export const projectsDataSecondYear = [
       <li>- A registered customer may view their upcoming bookings.</li>
       <li>- A user with a stud.noroff.no email may register as a Venue manager.</li>
       <li>- A user may view a calendar with available dates for a Venue.</li>
-      <li>- A user with a stud.noroff.no email may register as a customer.</li>  
+      <li>- A registered user may update their avatar.</li>  
+      <li>- A registered user may logout.</li>  
     </ul>
     <h5>Venue manager-facing features</h5>
+    <ul>
+      <li>- A registered Venue manager may create a Venue.</li>
+      <li>- A registered Venue manager may update a Venue they manage.</li>
+      <li>- A registered Venue manager may delete a Venue they manage.</li>
+      <li>- A registered Venue manager may delete a Venue they manage.</li>
+    </li>
     `,
+    techStack: `
+     <h4 class="h5 fw-bold">Technologies stack:</h4>
+    <ul>
+      <li><span>- React</span></li>
+      <li><span>- React-Router</span></li>
+      <li><span>- TypeScript</span></li>
+      <li><span>- Vite</span></li>
+      <li><span>- Scss, Css, Bootstrap</span></li>
+      <li><span>- Bootstrap</span></li>
+      <li><span>- GitHub Projects</span></li>
+      <li><span>- AdobeXD</span></li>
+      <li><span>- Deploy on GitHub Pages</span></li>
+    </ul>`,
     btnHrefLive: "https://mariuszrozycki.github.io/holidaze/",
     btnHrefGitHub: "https://github.com/MariuszRozycki/holidaze",
   },
@@ -89,6 +134,61 @@ export const projectsDataSecondYear = [
     imgSrc: "/pictures/e-com/e-com.jpg",
     description:
       "This project is an eCommerce store built with React, following the requirements set out in the project brief. The store uses an external API (https://v2.api.noroff.dev/online-shop) to fetch product data and allows users to browse products, view individual product details, add items to the cart, and complete the checkout process.",
+    descriptionDetails: `
+    <h4>Goal</h4>
+    <ul>
+      <li>To demonstrate knowledge of React by building an eCommerce store using the API provided by Noroff.</li>
+    </ul>
+
+    <h4>Features</h4>
+    <ul>
+      <li>Homepage displaying a list of all available products.</li>
+      <li>Search bar with live search filtering.</li>
+      <li>Product page for individual product details.</li>
+      <li>Cart functionality with the ability to add, view, and remove items.</li>
+      <li>Checkout flow including a success page with an order confirmation message.</li>
+      <li>Contact form with validation.</li>
+      <li>Responsive design for both desktop and mobile.</li>
+      <li>Clean and well-structured code using modern React features like hooks and React Router.</li>
+    </ul>
+
+    <h4>Technologies used:</h4>
+    <ul>
+      <li><span>React:</span> Core framework for building the front-end.</li>
+      <li><span>React Router:</span> For managing page navigation.</li>
+      <li><span>Styled-components:</span> Used for styling the components and making the design responsive.</li>
+      <li><span>React Toastify:</span> To display notifications for various actions such as successful form submissions and errors.</li>
+      <li><span>Fetch API:</span> For making requests to the external API to retrieve product data.</li>
+      <li><span>Netlify:</span> For deployment of the live site.</li>
+    </ul>
+
+    <h4>Pages</h4>
+    <ul>
+      <li><span>Homepage:</span> Lists all products fetched from the API and provides a search bar for filtering products by name. Clicking on a product redirects the user to the individual product page.</li>
+      <li><span>Product Page:</span> Displays the details of a specific product including its title, description, image, and discounted price (if available). There is an "Add to Cart" button to add products to the cart.</li>
+      <li><span>Cart Page:</span> Lists all products added to the cart, displays the total price, and includes a "Checkout" button.</li>
+      <li><span>Checkout Success Page:</span> Displays a success message confirming the order and provides a link to return to the homepage. The cart is cleared upon reaching this page.</li>
+      <li><span>Contact Page:</span> <br> - Contains a form with validation for the following fields: <br>
+      <span class="fw-normal">- Full name (minimum 3 characters)</span> <br>
+      <span class="fw-normal">- Subject (minimum 3 characters)</span> <br>
+      <span class="fw-normal">- Email (valid email address)</span> <br>
+      <span class="fw-normal">- Telephone number</span> <br>
+      <span class="fw-normal">- Message body (minimum 3 characters)</span>
+      </li>
+    <ul>
+    `,
+    techStack: `
+    <h4 class="h5 fw-bold">Technologies stack:</h4>
+   <ul>
+     <li><span>- React</span></li>
+     <li><span>- React-Router</span></li>
+     <li><span>- Vite</span></li>
+     <li><span>- Styled-Components</span></li>
+     <li><span>- Css</span></li>
+     <li><span>- GitHub Projects</span></li>
+     <li><span>- AdobeXD</span></li>
+     <li><span>- Deploy on Netlify</span></li>
+   </ul>`,
     btnHrefLive: "https://ecom-react-mariusz.netlify.app/",
     btnHrefGitHub: "https://github.com/MariuszRozycki/e-com-store-react",
   },
@@ -97,6 +197,44 @@ export const projectsDataSecondYear = [
     title: "Auction house",
     imgSrc: "/pictures/auction-house/auction-house.jpg",
     description: `An auction site is looking to launch a website where users can add items to be bid on and bid on items other users have put up for auction. When a new user joins the website, they are given 1000 credits to use on the site. They can get credits by selling items and use credit by buying items. Non-registered users can search through the listings, but only registered users can make bids on listings. The maximum number of responses from the API is 100. The main page is divided into 10 smaller pages by pagination. Sorting takes place from the newest to the oldest or from the oldest to the newest. The sort contains 100 responses from the API. When searching the listings, we look for 100 API responses. The entered letter, word, searches among the results in titles, descriptions and tags.`,
+    descriptionDetails: `
+    <h4>Features</h4>
+    <ul>
+      <li>- A user with a stud.noroff.no email may register.</li>
+      <li>- A registered user may login.</li>
+      <li>- A registered user may logout.</li>
+      <li>- A registered user may update their avatar.</li>
+      <li>- A registered user may view their total credit.</li>
+      <li>- A registered user may create a Listing with a title, deadline date, media gallery and description.</li>
+      <li>- A registered user may add a Bid to another user’s Listing.</li>
+      <li>- A registered user may view Bids made on a Listing.</li>
+      <li>- An unregistered user may search through Listings.</li>
+    </ul>
+
+    <h4>Technical restrictions:</h4>
+    <ul>
+      <li>Html</li>
+      <li>Css</li>
+      <li>Scss</li>
+      <li>JavaScript</li>
+      <li>Bootstrap</li>
+      <li>Trello</li>
+      <li>AdobeXD</li>
+      <li>Deploy on Netlify</li>
+    </ul>    
+    `,
+    techStack: `
+    <h4 class="h5 fw-bold">Technologies stack:</h4>
+   <ul>
+     <li><span>- JavaScript</span></li>
+     <li><span>- Html</span></li>
+     <li><span>- Scss</span></li>
+     <li><span>- Css</span></li>
+     <li><span>- Bootstrap</span></li>
+     <li><span>- Trello:</span> planning application</li>
+     <li><span>- AdobeXD:</span> design application</li>
+     <li><span>- Deploy on Netlify</span></li>
+   </ul>`,
     btnHrefLive: "https://genuine-squirrel-c1ec8c.netlify.app/",
     btnHrefGitHub: "https://github.com/MariuszRozycki/auction-gavel",
   },

@@ -3,7 +3,7 @@ import { Col, Button, Card } from "react-bootstrap";
 import { ModalMessageComponents, ModalProjectDetails } from "../../components";
 import "./ProjectCard.scss";
 
-function ProjectCard({ title, imgSrc, description, btnHrefLive, btnHrefGitHub, project }) {
+function ProjectCard({ project, title, imgSrc, description, btnHrefLive, btnHrefGitHub, techStack }) {
   const [modalShow, setModalShow] = useState(false);
   const [modalDetailsShow, setModalDetailsShow] = useState(false);
 
@@ -25,10 +25,10 @@ function ProjectCard({ title, imgSrc, description, btnHrefLive, btnHrefGitHub, p
           alt={title}
         />
         <Card.Body>
-          <Card.Title className='fs-5 fw-bold'>{title}</Card.Title>
+          <h4 className='fs-5 fw-bold'>{title}</h4>
           <Card.Text>{description}</Card.Text>
-
-          <div className='button-wrapper'>
+          <div className='technologies-stack mt-4' dangerouslySetInnerHTML={{ __html: project.techStack }} />
+          <div className='button-wrapper mt-5'>
             <Button className='gap-2' href={btnHrefLive} target='_blank'>
               <span>
                 <i className='bi bi-window-fullscreen'></i>
