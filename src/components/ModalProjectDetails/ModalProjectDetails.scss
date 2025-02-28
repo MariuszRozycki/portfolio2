@@ -1,0 +1,41 @@
+@use "bootstrap" as *;
+
+.modal-80w {
+  max-width: 700px;
+}
+
+.modal-content {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  li,
+  span {
+    color: black;
+  }
+
+  h4,
+  h5 {
+    font-family: "Source Sans 3", serif;
+    font-size: 18px;
+    font-weight: $font-weight-semibold;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+
+  span {
+    font-weight: 600;
+  }
+}
+
+.modal-header {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: var(--bs-primary-bg-subtle);
+  padding: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}

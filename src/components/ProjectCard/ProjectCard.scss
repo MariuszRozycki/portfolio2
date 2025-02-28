@@ -1,0 +1,70 @@
+@use "../../styles/breakpoints";
+
+.project-card.card {
+  container-type: inline-size;
+  background: var(--color-elegance);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    background: rgb(0, 0, 0);
+  }
+
+  .card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .technologies-stack {
+    height: 230px;
+  }
+
+  .button-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 400;
+      padding: 8px 10px;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      letter-spacing: 0.5px;
+      border: none;
+
+      span {
+        display: none;
+      }
+    }
+  }
+}
+
+@container (min-width: 300px) {
+  .project-card.card {
+    .button-wrapper {
+      flex-direction: row;
+    }
+  }
+}
+
+@media (min-width: breakpoints.get(sm)) {
+  .card {
+    .button-wrapper {
+      a {
+        span {
+          display: block;
+        }
+      }
+    }
+  }
+}
