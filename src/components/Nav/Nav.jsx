@@ -6,13 +6,19 @@ const Nav = ({ isMenuOpen, toggleMenu }) => {
     <S.Nav $isMenuOpen={isMenuOpen} onClick={toggleMenu}>
       <ul>
         <li>
-          <NavLink to='/portfolio2/'>Home</NavLink>
+          <NavLink to='/portfolio2/' end>
+            Home
+          </NavLink>
         </li>
         <li>
-          <NavLink to='/about'>About</NavLink>
+          <NavLink to='/about' end>
+            About
+          </NavLink>
         </li>
         <li>
-          <NavLink to='/contact'>Contact</NavLink>
+          <NavLink to='contact' end>
+            Contact
+          </NavLink>
         </li>
       </ul>
     </S.Nav>
