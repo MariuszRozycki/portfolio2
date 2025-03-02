@@ -15,6 +15,9 @@ const router = createBrowserRouter([
         path: "contact",
         element: <Contact />,
       },
+      {
+        basename: "/portfolio2",
+      },
     ],
   },
 ]);
