@@ -9,7 +9,7 @@ const Footer = () => {
         <p>&copy; Mariusz Rozycki</p>
         <div className='email-wrapper'>
           <p className='email-header'>e-mail:</p>
-          <a href='mailto:marius.front@gmail.com'>marius.front@gmail.com</a>
+          <a href='mailto:mariusz.frontdev@gmail.com'>mariusz.frontdev@gmail.com</a>
         </div>
       </Container>
     </S.Footer>

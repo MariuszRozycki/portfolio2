@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 
-import { HomeHeading, AboutShort, SocialMedia, AboutPoints, SectionProjects, VideoContainer } from "../../components";
+import { HomeHeading, AboutShort, SocialMedia, IntroText, SectionProjects, VideoContainer } from "../../components";
 import * as S from "./Home.styled";
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
       <S.Home>
         <HomeHeading />
         <VideoContainer />
-        <AboutPoints />
+        <IntroText />
         <div className='home-content'>
           <AboutShort />
           <SocialMedia />
