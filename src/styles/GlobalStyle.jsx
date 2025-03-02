@@ -97,7 +97,7 @@ ${
   --sixth-color: #281c0e;
   --light-blue-color: #b1daec;
   --very-light-green-color: #f7fff8;
-  --light-beige-color: #fff5ef;
+  --light-beige-color:rgba(255, 245, 239, 0.84);
   
   --dark-blue-color: #243662;
   --very-dark-blue-color: #2f3e46;

@@ -20,7 +20,7 @@ const ModalProjectDetails = ({ show, onHide, project }) => {
             <span className='text-light d-flex justify-content-center align-items-center'>
               <i className='bi bi-window-fullscreen'></i>
             </span>
-            Life
+            Live
           </Button>
           <Button className='d-flex gap-1' variant='secondary' href={project.btnHrefGitHub} target='_blank'>
             <span className='text-light d-flex justify-content-center align-items-center'>
