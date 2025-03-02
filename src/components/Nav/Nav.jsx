@@ -6,7 +6,7 @@ const Nav = ({ isMenuOpen, toggleMenu }) => {
     <S.Nav $isMenuOpen={isMenuOpen} onClick={toggleMenu}>
       <ul>
         <li>
-          <NavLink to='/'>Home</NavLink>
+          <NavLink to='/portfolio2/'>Home</NavLink>
         </li>
         <li>
           <NavLink to='/about'>About</NavLink>
