@@ -7,7 +7,7 @@ export const Home = styled.div.attrs({ className: "home outlet-content" })`
       color: var(--color-denary);
     }
 
-    .about-longer-section,
+    .about-points-section,
     .projects-section {
       margin-bottom: 50px;
     }

@@ -5,7 +5,7 @@ import Logo from "./Logo/Logo";
 import Footer from "./Footer/Footer";
 import AboutShort from "./AboutShort/AboutShort";
 import SocialMedia from "./SocialMedia/SocialMedia";
-import AboutPoints from "./AboutPoints/AboutPoints";
+import IntroText from "./IntroText/IntroText";
 import SectionProjects from "./SectionProjects/SectionProjects";
 import Projects from "./SectionProjects/Projects/Projects";
 import ProjectCard from "./ProjectCard/ProjectCard";
@@ -23,7 +23,7 @@ export {
   Footer,
   AboutShort,
   SocialMedia,
-  AboutPoints,
+  IntroText,
   SectionProjects,
   Projects,
   ProjectCard,
