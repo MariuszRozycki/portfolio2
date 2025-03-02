@@ -1,5 +1,5 @@
 import { ThemeProvider } from "styled-components";
-import { breakpoints, device } from "./Breakpoints.jsx";
+import { breakpoints, device } from "../utils/breakpoints";
 
 const theme = {
   padding: {
