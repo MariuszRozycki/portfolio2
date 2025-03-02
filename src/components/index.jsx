@@ -1,6 +1,6 @@
 import Header from "./Header/Header";
-import HomeHeading from "./HomeHeading/HomeHeading";
-import ContactHeading from "./HomeHeading/ContactHeading";
+import HomeHeading from "./Heading/HomeHeading";
+import ContactHeading from "./Heading/ContactHeading";
 import { HamburgerMenu, Nav } from "./Nav";
 import Logo from "./Logo/Logo";
 import Footer from "./Footer/Footer";

@@ -66,13 +66,7 @@ const ContactForm = () => {
       </label>
 
       <div id='message' className='message' style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-        {isLoading ? (
-          <ClipLoader size={50} color='#00BFFF' />
-        ) : (
-          <Button buttonText='Submit' className='btn' type='submit'>
-            Send message!
-          </Button>
-        )}
+        {isLoading ? <ClipLoader size={50} color='#00BFFF' /> : <Button type='submit'>Send message!</Button>}
       </div>
 
       <ToastContainer position='top-center' />

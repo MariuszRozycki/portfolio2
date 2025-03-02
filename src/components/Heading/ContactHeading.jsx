@@ -7,7 +7,7 @@ const ContactHeading = () => {
       <h1>
         <Typewriter
           words={["Contact to Mariusz Rozycki"]}
-          loop={0}
+          loop={1}
           cursor
           cursorStyle='|'
           typeSpeed={70}
