@@ -31,20 +31,23 @@ export const projectsCommercialData = [
       <li><span>Bootstrap:</span> Framework for responsive and mobile-first design.</li>
       <li><span>React-Bootstrap:</span> React components for Bootstrap styling.</li>
       <li><span>SCSS:</span> preprocessor scripting language that extends CSS by adding features like variables, nesting, mixins, and functions, making stylesheets more maintainable and dynamic.</li>
-    </ul>
+      <li><span>Deploy on CyberFolks</span></li>
+      </ul>
     `,
     techStack: `
      <h4 class="h5 fw-bold">Technologies stack:</h4>
     <ul>
-      <li><span>- React</span></li>
-      <li><span>- React-Router</span></li>
-      <li><span>- Vite</span></li>
-      <li><span>- React-Bootstrap</span></li>
-      <li><span>- Bootstrap</span></li>
-      <li><span>- Scss, Css</span></li>
-      <li><span>- AdobeXD</span></li>
-      <li><span>- Git, GitHub</span></li>
-      <li><span>- Deploy on CyberFolks</span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactbootstrap/reactbootstrap-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" /></span></li>
+      
     </ul>`,
     btnHrefLive: "https://tour-guide.pl/",
     btnHrefGitHub: "https://github.com/MariuszRozycki/tour-guide-bootstrap",
@@ -55,14 +58,13 @@ export const projectsCommercialData = [
     imgSrc: "/pictures/skin-beauty/skin-beauty.jpg",
     description: `Skin & Beauty is a website for a beauty salon in Oslo. On the website you can browse treatments, read about the details of the treatments and make an appointment. The website has a "home" section and a contact section.`,
     techStack: `
-     <h4 class="h5 fw-bold">Technologies stack</h4>
+     <h4 class="h5 fw-bold">Technologies stack:</h4>
     <ul>
-      <li><span>- JavaScript</span></li>
-      <li><span>- Css</span></li>
-      <li><span>- Html</span></li>
-      <li><span>- Git</span></li>
-      <li><span>- GitHub</span></li>
-      <li><span>- Deploy on OneCom</span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" /></span></li>
     </ul>`,
     btnHrefLive: "https://alenaskinbeauty.no/",
     btnHrefGitHub: "https://github.com/MariuszRozycki/skin-beauty",
@@ -115,15 +117,17 @@ export const projectsDataSecondYear = [
     techStack: `
      <h4 class="h5 fw-bold">Technologies stack:</h4>
     <ul>
-      <li><span>- React</span></li>
-      <li><span>- React-Router</span></li>
-      <li><span>- TypeScript</span></li>
-      <li><span>- Vite</span></li>
-      <li><span>- Scss, Css, Bootstrap</span></li>
-      <li><span>- Bootstrap</span></li>
-      <li><span>- GitHub Projects</span></li>
-      <li><span>- AdobeXD</span></li>
-      <li><span>- Deploy on GitHub Pages</span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactbootstrap/reactbootstrap-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg" /></span></li>
     </ul>`,
     btnHrefLive: "https://mariuszrozycki.github.io/holidaze/",
     btnHrefGitHub: "https://github.com/MariuszRozycki/holidaze",
@@ -180,14 +184,15 @@ export const projectsDataSecondYear = [
     techStack: `
     <h4 class="h5 fw-bold">Technologies stack:</h4>
    <ul>
-     <li><span>- React</span></li>
-     <li><span>- React-Router</span></li>
-     <li><span>- Vite</span></li>
-     <li><span>- Styled-Components</span></li>
-     <li><span>- Css</span></li>
-     <li><span>- GitHub Projects</span></li>
-     <li><span>- AdobeXD</span></li>
-     <li><span>- Deploy on Netlify</span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactbootstrap/reactbootstrap-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" /></span></li>           <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg" /></span></li>
    </ul>`,
     btnHrefLive: "https://ecom-react-mariusz.netlify.app/",
     btnHrefGitHub: "https://github.com/MariuszRozycki/e-com-store-react",
@@ -226,14 +231,13 @@ export const projectsDataSecondYear = [
     techStack: `
     <h4 class="h5 fw-bold">Technologies stack:</h4>
    <ul>
-     <li><span>- JavaScript</span></li>
-     <li><span>- Html</span></li>
-     <li><span>- Scss</span></li>
-     <li><span>- Css</span></li>
-     <li><span>- Bootstrap</span></li>
-     <li><span>- Trello:</span> planning application</li>
-     <li><span>- AdobeXD:</span> design application</li>
-     <li><span>- Deploy on Netlify</span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg" /></span></li>
    </ul>`,
     btnHrefLive: "https://genuine-squirrel-c1ec8c.netlify.app/",
     btnHrefGitHub: "https://github.com/MariuszRozycki/auction-gavel",

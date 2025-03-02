@@ -15,7 +15,7 @@ const useFetchProjectData = (projectsData) => {
         setLoading(false);
       }
     }, 1000);
-  }, [projectsData]);
+  }, []);
 
   return { projects, loading, error };
 };
