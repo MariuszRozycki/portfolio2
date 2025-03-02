@@ -58,6 +58,50 @@ export const projectsCommercialData = [
     title: "Skin & Beauty",
     imgSrc: "/portfolio2/pictures/skin-beauty/skin-beauty.jpg",
     description: `Skin & Beauty is a website for a beauty salon in Oslo. On the website you can browse treatments, read about the details of the treatments and make an appointment. The website has a "home" section and a contact section.`,
+    descriptionDetails: `
+    <h4>Skin Beauty Project</h4>
+    <p>Skin Beauty is a project designed to showcase a beauty and skincare business based in Oslo. The website is built to provide information about services, treatments, and contact details, creating an elegant and user-friendly experience.</p>
+
+    <h4>Description</h4>
+    <p>The goal of this project was to implement front-end development skills while building a fully responsive and visually appealing website for a beauty service provider. The project contains multiple pages displaying services, a gallery, and a contact form.</p>
+
+    <h4>Project contains the following pages:</h4>
+    <ol>
+      <li><span>Home Page</span> - Features a hero section with branding, introduction, and navigation.</li>
+      <li><span>About Page</span> - Provides details about the business and its services.</li>
+      <li><span>Treatments Page</span> - Lists various skin treatments available at the salon.</li>
+      <li><span>Gallery</span> - Showcases high-quality images of treatments and results.</li>
+      <li><span>Contact Page</span> - Contains a form where users can reach out to the business, ensuring validation for input fields.</li>
+    </ol>
+
+    <h4>Built with</h4>
+    <ul>
+      <li><span>This project was developed using:</span></li>
+      <li>- HTML, CSS, JavaScript</li>
+      <li>- Responsive Design Techniques</li>
+      <li>- Visual Studio Code for development</li>
+    </ul>
+
+    <h4>Design</h4>
+    <ul>
+      <li>- Initial wireframes and sketches were created to plan the website layout.</li>
+      <li>- Styling was implemented using CSS for a clean and professional look.</li>
+    </ul>
+
+    <h4>Technical</h4>
+    <ul>
+      <li>- HTML structure ensures semantic elements for better SEO.</li>
+      <li>- CSS styles for layout, animations, and responsiveness.</li>
+      <li>- JavaScript is used for interactive elements such as the navigation menu.</li>
+    </ul>
+
+    <h4>Summary:<h4>
+    <ul>
+      <li>- Fully responsive for mobile, tablet, and desktop screens.</li>
+      <li>- Clean HTML structure with proper semantic elements.</li>
+      <li>- Optimized images and assets for fast loading times.</li>
+      <li>- Contact form includes validation for user input.</li>
+    `,
     techStack: `
      <h4 class="h5 fw-bold">Technologies stack:</h4>
     <ul>

@@ -11,7 +11,7 @@ const Nav = ({ isMenuOpen, toggleMenu }) => {
           </NavLink>
         </li>
         <li>
-          <NavLink to='contact' end>
+          <NavLink to='/portfolio2/contact' end>
             Contact
           </NavLink>
         </li>
