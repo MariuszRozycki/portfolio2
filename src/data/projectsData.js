@@ -37,16 +37,17 @@ export const projectsCommercialData = [
     techStack: `
      <h4 class="h5 fw-bold">Technologies stack:</h4>
     <ul>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactbootstrap/reactbootstrap-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" alt="React Router" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt="Vite" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactbootstrap/reactbootstrap-original.svg" alt="React Bootstrap" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="Css3" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" alt="Sass" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg" alt="AdobeXD" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain.svg" alt="Git" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" alt="GitHub" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="Visual Studio Code" /></span></li>
       
     </ul>`,
     btnHrefLive: "https://tour-guide.pl/",
@@ -60,11 +61,13 @@ export const projectsCommercialData = [
     techStack: `
      <h4 class="h5 fw-bold">Technologies stack:</h4>
     <ul>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="Java Script" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="Css3" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="Html5" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="Visual Studio Code" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg" alt="AdobeXD" /></span></li>
     </ul>`,
     btnHrefLive: "https://alenaskinbeauty.no/",
     btnHrefGitHub: "https://github.com/MariuszRozycki/skin-beauty",
@@ -117,17 +120,18 @@ export const projectsDataSecondYear = [
     techStack: `
      <h4 class="h5 fw-bold">Technologies stack:</h4>
     <ul>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactbootstrap/reactbootstrap-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactbootstrap/reactbootstrap-original.svg" alt="React Bootstrap" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" alt="React Router" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="Type Script" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt="Vite" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="Css3" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" alt="Scss" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg" alt="AdobeXD" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="Visual Studio Code" /></span></li>
     </ul>`,
     btnHrefLive: "https://mariuszrozycki.github.io/holidaze/",
     btnHrefGitHub: "https://github.com/MariuszRozycki/holidaze",
@@ -184,15 +188,17 @@ export const projectsDataSecondYear = [
     techStack: `
     <h4 class="h5 fw-bold">Technologies stack:</h4>
    <ul>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactbootstrap/reactbootstrap-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" /></span></li>           <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactbootstrap/reactbootstrap-original.svg" alt="React Bootstrap" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" alt="React Router" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt="Vite" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="Css3" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" alt="Scss" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg" alt="AdobeXD" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="Visual Studio Code" /></span></li>
    </ul>`,
     btnHrefLive: "https://ecom-react-mariusz.netlify.app/",
     btnHrefGitHub: "https://github.com/MariuszRozycki/e-com-store-react",
@@ -231,13 +237,14 @@ export const projectsDataSecondYear = [
     techStack: `
     <h4 class="h5 fw-bold">Technologies stack:</h4>
    <ul>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" /></span></li>
-      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="Css3" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" alt="Sass" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg" alt="AdobeXD" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="Visual Studio Code" /></span></li>
    </ul>`,
     btnHrefLive: "https://genuine-squirrel-c1ec8c.netlify.app/",
     btnHrefGitHub: "https://github.com/MariuszRozycki/auction-gavel",
@@ -248,6 +255,48 @@ export const projectsDataSecondYear = [
     imgSrc: "/pictures/my-class/my-class.jpg",
     description:
       "In the 'my-class' project, I leveraged JavaScript to build a dynamic front-end for a social media platform, ensuring an engaging user experience with features like registration, content viewing, posting, editing, and deletion. I integrated the application with a backend API using authorization via JWT, employing HTTP methods such as GET, POST, PUT, and DELETE to interact with the social media content. The project's user interface was designed to be intuitive and responsive, with added functionalities for content filtering, searching, and secure token handling through localStorage.",
+    descriptionDetails: `
+    <h4>Required features</h4>
+      <ul>
+        <li>User registration (only @noroff.no or @stud.noroff.no email)</li>
+        <li>User login</li>
+        <li>Viewing post feed</li>
+        <li>Filtering posts</li>
+        <li>Searching posts</li>
+        <li>Viewing post details</li>
+        <li>Creating a new post</li>
+        <li>Editing an existing post</li>
+        <li>Deleting a post</li>
+      </ul>
+
+    <h4>Optional features</h4>
+      <ul>
+        <li>Adding comments to posts</li>
+        <li>Editing profile picture</li>
+        <li>Following and unfollowing profiles</li>
+        <li>Reacting to posts</li>
+      </ul>
+
+    <h4>Technologies</h4>
+      <ul>
+        <li><span>HTML, CSS, JavaScript </span>– structure and styling of the application</li>
+        <li><span>Noroff API </span>– providing data for the social media platform</li>
+        <li><span>LocalStorage  </span>– storing JWT tokens</li>
+        <li><span>ES6 Modules </span>– code structure</li>
+        <li><span>JSDoc </span>– code documentation</li>
+      </ul>
+    `,
+    techStack: `
+    <h4 class="h5 fw-bold">Technologies stack:</h4>
+   <ul>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="Css3" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="Html5" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg" alt="AdobeXD" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="Visual Studio Code" /></span></li>
+   </ul>`,
     btnHrefLive: "https://coruscating-melomakarona-28cd35.netlify.app/",
     btnHrefGitHub: "https://github.com/MariuszRozycki/my-class",
   },
@@ -260,6 +309,81 @@ export const projectsDataFirstYear = [
     imgSrc: "/pictures/trip-blog/trip-blog.jpg",
     description: `The goal of the project was to put into practice the skills learned over first year of studies.
     This project is made as a first year exam. The content for website is stored on a WordPress used as a Headless CMS. Trip Blog is using WordPress to provide an API and add content for the blog. To build this blog I used pure Java Script, HTML, CSS and I made a call to the WordPress REST API to fetch the data.`,
+    descriptionDetails: `
+    <h4>Description</h4>
+
+<ul>
+  <li class="mb-2"><span>Project contains following pages:</span></li>
+  <li><span>Home page</span> - section with slider where user can see twelve lasts posts and click arrow to view more posts. Moving the slider is limited by the first or last post. Slider is implemented for mobile and desktop layout. Displaying and limitation is made by using both: Java Script and CSS - grid.</li>
+  <br>
+  <li><span>About</span> - here is added picture and "Lorem ipsum" text to fill up space. I used CSS - grid to share space between picture and text and of course to make a website responsive.</li>
+  <br>
+  <li><span>List of blog posts</span> - blog Page shows first 10 blogs. Under the first 10 blogs finds "Show more" button to show the rest of blog posts. When "Show more" button is clicked, button changes innerText to "Show less". After clicking "Show less" user can see again first 10 blogs.</li>
+  <br>
+  <li><span>Blog post specific pages</span> - the content of the blog specific page is dynamically build using a query string parameter based on whatever link the user clicked. The title of the blog specific is changed based on the blog that has been clicked. If any image on the blog post page is clicked, a modal appears that gives the user a bigger view of that image. Clicking outside image closes the modal.</li>
+  <br>
+  <li><span>Contact page</span> - contact page contains four text boxes:</li> 
+  <li>- name (is more than 5 characters long),</li>
+  <li>- email address (is a valid email address),</li>
+  <li>- subject (is more than 15 characters long),</li>
+  <li>- message content (is more than 25 characters long),</li>
+  <li>- there is written JavaScript code to form validation.</li>
+</ul>
+
+<h4>Technical restrictions</h4>
+<ul>
+  <li><span>To built this project I used:</span></li>
+  <li>- HTML, CSS, JS,</li>
+  <li>- WordPress REST API,</li>
+  <li>- one.com web host</li>
+  <li>- worked with Visual Studio Code</li>
+</ul>
+
+<h4>Preparing to project</h4>
+<ul>
+  <li>- As a first step I created a work board on Trello, to plan whole process of Trip Blog creation,</li>
+  <li>- I chose theme,</li>
+</ul>
+
+<h4>Design</h4>
+<ul>
+  <li>- I made a sketches of project on sheets of paper,</li>
+  <li>- gave a sketches to test,</li>
+  <li>- I made a low-fidelity prototypes in AdobeXD,</li>
+  <li>- chose fonts, colors,</li>
+  <li>- tested low-fidelity prototypes,</li>
+  <li>- chose pictures to project and adjusted them to requirements,</li>
+  <li>- I made a high fidelity prototypes,</li>
+</ul>
+
+<h4>Technical</h4>
+<ul>
+  <li>- I wrote code in Html, Css,</li>
+  <li>- tested coded design,</li>
+  <li>- I wrote Java Script code</li>
+</ul>
+
+<h4>Summary:</h4>
+<ul>
+  <li>- website is mobile responsive and looks good on all screen sizes</li>
+  <li>- the HTML is neat and semantic, the CSS is concise and styles aren't duplicated in media queries</li>
+  <li>- each page has a unique title, one unique h1, and meta description</li>
+  <li>- images are below 200kb and have alt text</li>
+  <li>- the site looks good and there's a class in the navigation telling the user which page they're on</li>
+  <li>- text lines are kept short</li>
+  <li>- the colors have good contrast, the text is easy to read and the site is easy for user's to navigate
+<ul> `,
+    techStack: `
+    <h4 class="h5 fw-bold">Technologies stack:</h4>
+    <ul>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="Css3" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="Html5" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg" alt="AdobeXD" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="Visual Studio Code" /></span></li>
+    </ul>`,
     btnHrefLive: "https://dynamic-twilight-02d190.netlify.app/",
     btnHrefGitHub: "https://github.com/Noroff-FEU-Assignments/project-exam-1-MariuszRozycki",
   },
@@ -268,6 +392,54 @@ export const projectsDataFirstYear = [
     title: "Museum of science",
     imgSrc: "/pictures/museum-of-science/museum-of-science.jpg",
     description: `An interactive science museum called the Community Science Museum is opening in your town/city. Its core target audience is primary and middle school children (7-15) and families with young children. The museum wants a website that is informative and appealing, that will attract both middle school pupils and their parents. The site should appeal to youngsters without pandering; it should take for granted that the audience is inquisitive and intelligent. The website should be informative and engaging, but should encourage viewers to visit the museum itself. The website should be responsive and be easy to use on a variety of devices.`,
+    descriptionDetails: `
+    <h4>Description</h4>
+    <p>I made a website Museum of Science as a study semester project. Site was designed by me and appeals to target audience.
+    This is as a first semester project. Project includes design principles, project management, communication technology, and developing with HTML/CSS and basic Java Script. 
+    A prototype of the website is made using Adobe XD [link to prototypes](https://xd.adobe.com/view/233a9331-2653-4c76-80d0-bb6d72fadf3d-7669). <br>
+    However it was one among of my first study projects, my goal was to design website that I will use it in future as a template.</p> 
+
+  <h4>Requirements of project:</h4>
+  <ul>
+    <li>- the site has been design that appeals to the target audience</li>
+    <li>- Compositional principles, typography, and color schemes are considered</li>
+    <li>- HTML is semantic and neatly indented</li>
+    <li>- the site uses external CSS style sheets which follow the DRY principle</li>
+    <li>- the site takes WCAG principles into consideration, especially regarding hierarchy, navigation, and color usage</li>
+    <li>- the site is responsive, attractive, and easy to use on a variety of devices</li>
+    <li>- the site shows consideration for content strategy and SEO (used of meta tags and alt text)</li>
+  </ul>
+
+  <h4>Summary:</h4>
+  <ul>
+    <li>- website is mobile responsive and looks good on all screen sizes</li>
+    <li>- the HTML is neat and semantic, the CSS is concise and styles aren't duplicated in media queries</li>
+    <li>- each page has a unique title, one unique h1, and meta description</li>
+    <li>- images are below 200kb and have alt text</li>
+    <li>- the site looks good and there's a class in the navigation telling the user which page they're on</li>
+    <li>- text lines are kept short</li>
+    <li>- the colors have good contrast, the text is easy to read and the site is easy for user's to navigate</li>
+  <ul>
+
+  <h4>Built with</h4>
+  <ul>
+    <li><span>To built this project I used:</span>
+    <li>- HTML, CSS, JS,</li>
+    <li>- worked with Visual Studio Code,</li>
+    <li>- website deployed on Netlify</li>
+  <ul>
+    `,
+    techStack: `
+    <h4 class="h5 fw-bold">Technologies stack:</h4>
+    <ul>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="Css3" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="Html5" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg" alt="AdobeXD" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="Visual Studio Code" /></span></li>
+    </ul>`,
     btnHrefLive: "https://wizardly-hugle-cb8551.netlify.app/",
     btnHrefGitHub: "https://github.com/MariuszRozycki/museum-of-science",
   },
@@ -276,6 +448,12 @@ export const projectsDataFirstYear = [
     title: "Flower Power",
     imgSrc: "/pictures/flower-power/flower-power.jpg",
     description: `To create an e-commerce site for a company called ‘Flower Power’ using WordPress and display it on a web host. ‘Flower Power’ is a company selling bouquets online. They want a website built on WordPress to update content and add products as they wish.`,
+    techStack: `
+    <h4 class="h5 fw-bold">Technologies stack:</h4>
+    <ul>
+      <li class="wordpress"><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain-wordmark.svg" alt="WordPress" /></span></li>
+    </ul>
+    `,
     btnHrefLive: "https://mariuszrozycki.info/flower-power/",
     btnHrefGitHub: "pureWordPress",
   },
@@ -284,6 +462,18 @@ export const projectsDataFirstYear = [
     title: "Rainy Days",
     imgSrc: "/pictures/rainy-days/rainy-days.jpg",
     description: `E-commerce project (The project is developed constantly and will be until the end of study). This is a cross-study project I started in 2021. `,
+    techStack: `
+    <h4 class="h5 fw-bold">Technologies stack:</h4>
+    <ul>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="Css3" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="Html5" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg" alt="AdobeXD" /></span></li>
+      <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="Visual Studio Code" /></span></li>
+      <li class="wordpress"><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain-wordmark.svg" alt="WordPress" /></span></li>
+    </ul>`,
     btnHrefLive: "https://mariuszrozycki.info/rainy-days",
     btnHrefGitHub: "https://github.com/MariuszRozycki/rainy-days",
   },

@@ -12,8 +12,8 @@ const SectionProjects = () => {
   return (
     <S.SectionProjects>
       <Projects title='Commercial projects' projectData={projectsCommercialData} />
-      <Projects title="Second year student's projects" projectData={projectsDataSecondYear} />
-      <Projects title="First year student's projects" projectData={projectsDataFirstYear} />
+      <Projects title='Second year projects' projectData={projectsDataSecondYear} />
+      <Projects title='First year projects' projectData={projectsDataFirstYear} />
     </S.SectionProjects>
   );
 };
