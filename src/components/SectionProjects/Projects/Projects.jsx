@@ -5,7 +5,7 @@ import ProjectCard from "../../ProjectCard/ProjectCard";
 const Projects = ({ title, projectData }) => {
   return (
     <S.SectionProjects>
-      <h3 className='h4'>{title}</h3>
+      <h3 className='h4 mt-5'>{title}</h3>
       <Row className='g-3'>
         {projectData.map((project) => (
           <ProjectCard
