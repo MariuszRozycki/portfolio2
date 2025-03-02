@@ -11,14 +11,14 @@ const Nav = ({ isMenuOpen, toggleMenu }) => {
           </NavLink>
         </li>
         <li>
-          <NavLink to='/about' end>
-            About
-          </NavLink>
-        </li>
-        <li>
           <NavLink to='contact' end>
             Contact
           </NavLink>
+        </li>
+        <li>
+          <a href='/portfolio2/resume/mariusz_rozycki-cv-port.pdf' target='_blank' rel='noopener noreferrer'>
+            Cv
+          </a>
         </li>
       </ul>
     </S.Nav>

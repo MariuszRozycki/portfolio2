@@ -10,7 +10,7 @@ const Header = ({ headerRef }) => {
   return (
     <S.Header ref={headerRef}>
       <Container>
-        <Link onClick={handleLinkClick} to='/'>
+        <Link onClick={handleLinkClick} to='/portfolio2/'>
           <Logo />
         </Link>
         <HamburgerMenu toggleMenu={toggleMenu} isMenuOpen={isMenuOpen} />
