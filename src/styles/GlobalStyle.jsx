@@ -109,7 +109,7 @@ ${
   --color-yellow-hover: rgb(170, 119, 35);
 
   /* background-color */
-  --main-background-color: rgba(15, 23, 42);
+  --main-background-color: #0f172a;
 
   /* radius */
   --border-radius-min: 5px;
@@ -119,7 +119,7 @@ ${
 
   /* box-shadow */
   --box-shadow-null: 0 0 0 rgba(227, 227, 227, 0.2), 0 0 0 rgba(0, 0, 0, 0);
-  --box-shadow-light: 0 4px 8px rgba(82, 45, 178, 0.56), 0 6px 20px rgba(82, 45, 178, 0.56);
+  --box-shadow-light: 0 4px 8px rgba(120, 120, 120, 0.56), 0 6px 20px rgba(120, 120, 120, 0.56);
   --box-shadow-medium: 0 4px 8px rgba(0, 0, 0, 0.5), 0 6px 20px rgba(0, 0, 0, 0.5);
   --box-shadow-hard: 0 4px 8px rgba(0, 0, 0, 0.9), 0 6px 20px rgba(0, 0, 0, 0.9);
 
