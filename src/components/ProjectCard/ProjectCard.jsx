@@ -3,7 +3,7 @@ import { Col, Button, Card } from "react-bootstrap";
 import { ModalMessageComponents, ModalProjectDetails } from "../../components";
 import "./ProjectCard.scss";
 
-function ProjectCard({ project, title, imgSrc, description, btnHrefLive, btnHrefGitHub, techStack }) {
+function ProjectCard({ project, title, imgSrc, description, btnHrefLive, btnHrefGitHub }) {
   const [modalShow, setModalShow] = useState(false);
   const [modalDetailsShow, setModalDetailsShow] = useState(false);
 

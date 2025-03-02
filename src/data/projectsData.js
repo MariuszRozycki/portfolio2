@@ -451,7 +451,7 @@ export const projectsDataFirstYear = [
     techStack: `
     <h4 class="h5 fw-bold">Technologies stack:</h4>
     <ul>
-      <li class="wordpress"><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain-wordmark.svg" alt="WordPress" /></span></li>
+      <li><span><i class="devicon-wordpress-plain" alt="WordPress"></i></span></li>
     </ul>
     `,
     btnHrefLive: "https://mariuszrozycki.info/flower-power/",
@@ -515,7 +515,7 @@ export const projectsDataFirstYear = [
       <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" /></span></li>
       <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg" alt="AdobeXD" /></span></li>
       <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="Visual Studio Code" /></span></li>
-      <li class="wordpress"><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain-wordmark.svg" alt="WordPress" /></span></li>
+      <li><span><i class="devicon-wordpress-plain" alt="WordPress"></i></span></li>
     </ul>`,
     btnHrefLive: "https://mariuszrozycki.info/rainy-days",
     btnHrefGitHub: "https://github.com/MariuszRozycki/rainy-days",
