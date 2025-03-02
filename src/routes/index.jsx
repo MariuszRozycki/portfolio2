@@ -4,11 +4,11 @@ import { Home } from "../pages";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/portfolio2/",
     element: <MainLayout />,
     children: [
       {
-        path: "/",
+        path: "",
         element: <Home />,
       },
     ],

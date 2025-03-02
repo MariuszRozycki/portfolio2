@@ -2,7 +2,7 @@ export const projectsCommercialData = [
   {
     id: "commercial-001",
     title: "Tour Guide",
-    imgSrc: "/pictures/tour-guide/tour-guide.jpg",
+    imgSrc: "/portfolio2/pictures/tour-guide/tour-guide.jpg",
     description: `Tour Guide is a modern web application designed to provide users with an engaging and interactive experience for exploring guided tours. Built using React, Vite, and Bootstrap, the project focuses on delivering a user-friendly interface and responsive design.`,
     descriptionDetails: `
     <h4>Features</h4>
@@ -56,7 +56,7 @@ export const projectsCommercialData = [
   {
     id: "commercial-002",
     title: "Skin & Beauty",
-    imgSrc: "/pictures/skin-beauty/skin-beauty.jpg",
+    imgSrc: "/portfolio2/pictures/skin-beauty/skin-beauty.jpg",
     description: `Skin & Beauty is a website for a beauty salon in Oslo. On the website you can browse treatments, read about the details of the treatments and make an appointment. The website has a "home" section and a contact section.`,
     techStack: `
      <h4 class="h5 fw-bold">Technologies stack:</h4>
@@ -78,7 +78,7 @@ export const projectsDataSecondYear = [
   {
     id: "secondyear-001",
     title: "Holidaze",
-    imgSrc: "/pictures/holidaze/holidaze.jpg",
+    imgSrc: "/portfolio2/pictures/holidaze/holidaze.jpg",
     description:
       "Holidaze is a modern front-end application for an accommodation booking platform. The project is being developed using HTML, SCSS, CSS, JavaScript, React, and TypeScript. It leverages GitHub Pages for hosting and integrates a Kanban board on GitHub Projects for task management. The design prototype was created in Adobe XD.",
     descriptionDetails: `
@@ -139,7 +139,7 @@ export const projectsDataSecondYear = [
   {
     id: "secondyear-002",
     title: "E-Com",
-    imgSrc: "/pictures/e-com/e-com.jpg",
+    imgSrc: "/portfolio2/pictures/e-com/e-com.jpg",
     description:
       "This project is an eCommerce store built with React, following the requirements set out in the project brief. The store uses an external API (https://v2.api.noroff.dev/online-shop) to fetch product data and allows users to browse products, view individual product details, add items to the cart, and complete the checkout process.",
     descriptionDetails: `
@@ -206,7 +206,7 @@ export const projectsDataSecondYear = [
   {
     id: "secondyear-003",
     title: "Auction house",
-    imgSrc: "/pictures/auction-house/auction-house.jpg",
+    imgSrc: "/portfolio2/pictures/auction-house/auction-house.jpg",
     description: `An auction site is looking to launch a website where users can add items to be bid on and bid on items other users have put up for auction. When a new user joins the website, they are given 1000 credits to use on the site. They can get credits by selling items and use credit by buying items. Non-registered users can search through the listings, but only registered users can make bids on listings. The maximum number of responses from the API is 100. The main page is divided into 10 smaller pages by pagination. Sorting takes place from the newest to the oldest or from the oldest to the newest. The sort contains 100 responses from the API. When searching the listings, we look for 100 API responses. The entered letter, word, searches among the results in titles, descriptions and tags.`,
     descriptionDetails: `
     <h4>Features</h4>
@@ -252,7 +252,7 @@ export const projectsDataSecondYear = [
   {
     id: "secondyear-004",
     title: "My class",
-    imgSrc: "/pictures/my-class/my-class.jpg",
+    imgSrc: "/portfolio2/pictures/my-class/my-class.jpg",
     description:
       "In the 'my-class' project, I leveraged JavaScript to build a dynamic front-end for a social media platform, ensuring an engaging user experience with features like registration, content viewing, posting, editing, and deletion. I integrated the application with a backend API using authorization via JWT, employing HTTP methods such as GET, POST, PUT, and DELETE to interact with the social media content. The project's user interface was designed to be intuitive and responsive, with added functionalities for content filtering, searching, and secure token handling through localStorage.",
     descriptionDetails: `
@@ -306,7 +306,7 @@ export const projectsDataFirstYear = [
   {
     id: "firstyear-001",
     title: "Trip blog",
-    imgSrc: "/pictures/trip-blog/trip-blog.jpg",
+    imgSrc: "/portfolio2/pictures/trip-blog/trip-blog.jpg",
     description: `The goal of the project was to put into practice the skills learned over first year of studies.
     This project is made as a first year exam. The content for website is stored on a WordPress used as a Headless CMS. Trip Blog is using WordPress to provide an API and add content for the blog. To build this blog I used pure Java Script, HTML, CSS and I made a call to the WordPress REST API to fetch the data.`,
     descriptionDetails: `
@@ -390,7 +390,7 @@ export const projectsDataFirstYear = [
   {
     id: "firstyear-002",
     title: "Museum of science",
-    imgSrc: "/pictures/museum-of-science/museum-of-science.jpg",
+    imgSrc: "/portfolio2/pictures/museum-of-science/museum-of-science.jpg",
     description: `An interactive science museum called the Community Science Museum is opening in your town/city. Its core target audience is primary and middle school children (7-15) and families with young children. The museum wants a website that is informative and appealing, that will attract both middle school pupils and their parents. The site should appeal to youngsters without pandering; it should take for granted that the audience is inquisitive and intelligent. The website should be informative and engaging, but should encourage viewers to visit the museum itself. The website should be responsive and be easy to use on a variety of devices.`,
     descriptionDetails: `
     <h4>Description</h4>
@@ -446,7 +446,7 @@ export const projectsDataFirstYear = [
   {
     id: "firstyear-003",
     title: "Flower Power",
-    imgSrc: "/pictures/flower-power/flower-power.jpg",
+    imgSrc: "/portfolio2/pictures/flower-power/flower-power.jpg",
     description: `To create an e-commerce site for a company called ‘Flower Power’ using WordPress and display it on a web host. ‘Flower Power’ is a company selling bouquets online. They want a website built on WordPress to update content and add products as they wish.`,
     techStack: `
     <h4 class="h5 fw-bold">Technologies stack:</h4>
@@ -460,7 +460,7 @@ export const projectsDataFirstYear = [
   {
     id: "firstyear-004",
     title: "Rainy Days",
-    imgSrc: "/pictures/rainy-days/rainy-days.jpg",
+    imgSrc: "/portfolio2/pictures/rainy-days/rainy-days.jpg",
     description: `E-commerce project (The project is developed constantly and will be until the end of study). This is a cross-study project I started in 2021. `,
     descriptionDetails: `
     <h4>Description</h4>
