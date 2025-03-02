@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { fadeIn } from "../../styles/animations";
 
-export const HomeHeading = styled.div.attrs({ className: "home-heading" })`
+export const Heading = styled.div.attrs({ className: "heading" })`
   h1 {
     span {
       font-size: 28px;

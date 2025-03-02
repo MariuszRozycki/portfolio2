@@ -13,7 +13,6 @@ const Home = () => {
         <div className='home-content'>
           <AboutShort />
           <SocialMedia />
-
           <SectionProjects />
         </div>
       </S.Home>
