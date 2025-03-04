@@ -1,11 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
 import { MainLayout } from "../layouts";
-import { Home, Contact } from "../pages";
+import { Home, Contact, ErrorPage } from "../pages";
 
 const router = createBrowserRouter([
   {
     path: "/portfolio2/",
     element: <MainLayout />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "",
@@ -14,9 +15,6 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contact />,
-      },
-      {
-        basename: "/portfolio2",
       },
     ],
   },
