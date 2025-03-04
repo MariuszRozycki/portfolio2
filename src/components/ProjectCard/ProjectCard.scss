@@ -31,7 +31,7 @@
       justify-content: flex-start;
       align-items: flex-start;
       flex-wrap: wrap;
-      gap: 11px;
+      gap: 8px;
       li {
         display: flex;
         justify-content: center;
@@ -39,8 +39,8 @@
         padding: 6px;
         border-radius: var(--border-radius-min);
         background-color: rgba(255, 255, 255, 0.1);
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         span {
           display: flex;
           justify-content: center;
@@ -114,7 +114,7 @@
 @media (min-width: breakpoints.get(md)) {
   .project-card.card {
     .technologies-stack {
-      min-height: 203px;
+      min-height: 260px;
     }
   }
 }
@@ -122,7 +122,7 @@
 @media (min-width: breakpoints.get(lg)) {
   .project-card.card {
     .technologies-stack {
-      min-height: 153px;
+      min-height: 188px;
     }
   }
 }
