@@ -16,7 +16,7 @@ const Nav = ({ isMenuOpen, toggleMenu }) => {
           </NavLink>
         </li>
         <li>
-          <a href='/portfolio2/resume/mariusz_rozycki-cv-port.pdf' target='_blank' rel='noopener noreferrer'>
+          <a href='/portfolio2/resume/mariusz_rozycki-cv-portfolio.pdf' target='_blank' rel='noopener noreferrer'>
             Cv
           </a>
         </li>
