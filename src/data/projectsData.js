@@ -1,4 +1,4 @@
-export const projectsCommercialData = [
+export const projectsData = [
   {
     id: "commercial-001",
     title: "Tour Guide",
@@ -50,7 +50,7 @@ export const projectsCommercialData = [
       <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="Visual Studio Code" /></span></li>
       
     </ul>`,
-    btnHrefLive: "https://tour-guide.pl/",
+    btnHrefLive: "https://tour-guide-pl.netlify.app/",
     btnHrefGitHub: "https://github.com/MariuszRozycki/tour-guide-bootstrap",
   },
   {
@@ -113,12 +113,9 @@ export const projectsCommercialData = [
       <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="Visual Studio Code" /></span></li>
       <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg" alt="AdobeXD" /></span></li>
     </ul>`,
-    btnHrefLive: "https://alenaskinbeauty.no/",
+    btnHrefLive: "https://alena-skin-beauty.netlify.app/",
     btnHrefGitHub: "https://github.com/MariuszRozycki/skin-beauty",
   },
-];
-
-export const projectsDataSecondYear = [
   {
     id: "secondyear-001",
     title: "Holidaze",
@@ -344,9 +341,6 @@ export const projectsDataSecondYear = [
     btnHrefLive: "https://coruscating-melomakarona-28cd35.netlify.app/",
     btnHrefGitHub: "https://github.com/MariuszRozycki/my-class",
   },
-];
-
-export const projectsDataFirstYear = [
   {
     id: "firstyear-001",
     title: "Trip blog",
@@ -429,7 +423,8 @@ export const projectsDataFirstYear = [
       <li><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="Visual Studio Code" /></span></li>
     </ul>`,
     btnHrefLive: "https://dynamic-twilight-02d190.netlify.app/",
-    btnHrefGitHub: "https://github.com/Noroff-FEU-Assignments/project-exam-1-MariuszRozycki",
+    btnHrefGitHub:
+      "https://github.com/Noroff-FEU-Assignments/project-exam-1-MariuszRozycki",
   },
   {
     id: "firstyear-002",
@@ -565,3 +560,11 @@ export const projectsDataFirstYear = [
     btnHrefGitHub: "https://github.com/MariuszRozycki/rainy-days",
   },
 ];
+
+// export const projectsDataSecondYear = [
+
+// ];
+
+// export const projectsDataFirstYear = [
+
+// ];

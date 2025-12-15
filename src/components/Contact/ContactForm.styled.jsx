@@ -1,9 +1,14 @@
 import styled from "styled-components";
 
-export const ContactForm = styled.form.attrs({ id: "form-15", className: "form", method: "post" })`
-  display: flex;
+export const ContactForm = styled.form.attrs({
+  id: "form-15",
+  className: "form",
+  method: "post",
+})`
+  display: none;
   flex-direction: column;
   width: 100%;
+  height: 0
   margin: auto;
   row-gap: 15px;
   padding: ${({ theme }) => theme.padding.container};

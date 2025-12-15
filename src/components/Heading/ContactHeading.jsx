@@ -9,13 +9,13 @@ const ContactHeading = () => {
           words={["Contact to Mariusz Rozycki"]}
           loop={1}
           cursor
-          cursorStyle='|'
+          cursorStyle="|"
           typeSpeed={70}
           deleteSpeed={50}
           delaySpeed={1000}
         />
       </h1>
-      <h2 className='h3'>Don&apos;t forget to send a message!</h2>
+      <h2 className="h3">Don&apos;t forget to send an e-mail!</h2>
     </S.Heading>
   );
 };
