@@ -14,7 +14,7 @@ const navItems: NavItem[] = [
   { href: "#projects", label: "Projects" },
   { href: "#experience", label: "Experience" },
   { href: "#contact", label: "Contact" },
-  { to: "/resume", label: "CV (full)" },
+  { to: "/resume", label: "CV" },
 ];
 
 export function Navbar({
@@ -87,7 +87,7 @@ export function Navbar({
                   </Link>
                 );
               }
-              const to = onHome ? it.href ?? "#top" : `/${it.href ?? "#top"}`;
+              const to = onHome ? (it.href ?? "#top") : `/${it.href ?? "#top"}`;
               return onHome ? (
                 <a key={key} href={to} className={common}>
                   {it.label}
@@ -170,7 +170,9 @@ export function Navbar({
                     </Link>
                   );
                 }
-                const to = onHome ? it.href ?? "#top" : `/${it.href ?? "#top"}`;
+                const to = onHome
+                  ? (it.href ?? "#top")
+                  : `/${it.href ?? "#top"}`;
                 return onHome ? (
                   <a
                     key={key}

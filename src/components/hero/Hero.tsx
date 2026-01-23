@@ -97,7 +97,8 @@ function HeroCard() {
             </div>
             <div className="mt-1 text-lg font-semibold">WikiForum</div>
             <div className="mt-1 text-sm text-slate-600 dark:text-slate-300">
-              Knowledge base + forum with AI semantic search.
+              Knowledge base + forum with AI semantic search (RAG) that answers
+              from verified wiki context and shows sources.
             </div>
           </div>
         </div>
@@ -112,9 +113,13 @@ function HeroCard() {
         <div className="mt-6 rounded-2xl border border-slate-200 bg-white/70 p-4 text-sm text-slate-700 dark:border-slate-800 dark:bg-slate-950/60 dark:text-slate-200">
           <div className="font-semibold">What I enjoy most</div>
           <p className="mt-1 leading-relaxed text-slate-600 dark:text-slate-300">
-            Turning messy requirements into calm, predictable UI — so users feel
-            like the product reads their mind (in a legal way).
+            I love building predictable UI around tricky state — search, async
+            flows, and “no surprises” UX. AI is cool, but reliability is cooler.
           </p>
+        </div>
+        <div className="mt-2 text-xs text-slate-500 dark:text-slate-400">
+          Built with React + TS, Redux Toolkit, Supabase (Postgres/Auth/Edge
+          Functions), pgvector.
         </div>
 
         <div className="mt-6 flex items-center justify-between text-xs text-slate-600 dark:text-slate-400">
