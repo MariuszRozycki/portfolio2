@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Download, Sparkles } from "lucide-react";
+import { ArrowRight, Download, Sparkles, ExternalLink } from "lucide-react";
 import { profile } from "../../data/profile";
 import { cv } from "../../data/cv";
 import { asset } from "../../lib/asset";
@@ -90,17 +90,29 @@ function HeroCard() {
     <div className="relative mx-auto max-w-lg">
       <div className="absolute -inset-2 rounded-[2.2rem] bg-slate-900/10 blur-2xl dark:bg-slate-100/10" />
       <div className="relative overflow-hidden rounded-[2.2rem] border border-slate-200/70 bg-white/70 p-6 shadow-sm backdrop-blur dark:border-slate-800/70 dark:bg-slate-950/50">
-        <div className="flex items-center justify-between">
+        <div className="flex items-start justify-between gap-4">
           <div>
             <div className="text-xs font-semibold text-slate-600 dark:text-slate-400">
               Currently building
             </div>
             <div className="mt-1 text-lg font-semibold">WikiForum</div>
             <div className="mt-1 text-sm text-slate-600 dark:text-slate-300">
-              Knowledge base + forum with AI semantic search (RAG) that answers
-              from verified wiki context and shows sources.
+              MVP (Minimum Viable Product) currently in development: knowledge
+              base + forum with AI semantic search (RAG). Answers are generated
+              only from verified wiki context and include sources.
             </div>
           </div>
+
+          <a
+            href="https://wikiforum.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="shrink-0"
+          >
+            <Button variant="secondary" className="h-9 px-3">
+              Live <ExternalLink className="h-4 w-4" />
+            </Button>
+          </a>
         </div>
 
         <div className="mt-6 grid gap-3 sm:grid-cols-2">

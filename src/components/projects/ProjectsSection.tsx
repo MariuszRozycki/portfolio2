@@ -96,7 +96,7 @@ export function ProjectsSection({
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
                   <div className="absolute left-4 top-4 flex flex-wrap gap-2">
-                    {p.tags.slice(0, 3).map((t) => (
+                    {p.tags.slice(0, 5).map((t) => (
                       <Badge
                         key={t}
                         className="border-white/30 bg-white/20 text-white"
@@ -114,14 +114,17 @@ export function ProjectsSection({
                         {p.title}
                       </h3>
                       <p className="mt-2 text-sm leading-relaxed text-slate-600 dark:text-slate-300">
-                        {p.description}
+                        {p.description.length > 300
+                          ? p.description.slice(0, 300).replace(/\s+\S*$/, "") +
+                            "…"
+                          : p.description}
                       </p>
                     </div>
                     <span
                       className={cn(
                         "mt-1 inline-flex h-9 w-9 items-center justify-center rounded-2xl",
                         "border border-slate-200 bg-white text-slate-700 shadow-sm",
-                        "dark:border-slate-800 dark:bg-slate-950 dark:text-slate-200"
+                        "dark:border-slate-800 dark:bg-slate-950 dark:text-slate-200",
                       )}
                       aria-hidden
                     >
@@ -130,15 +133,14 @@ export function ProjectsSection({
                   </div>
 
                   <div className="mt-4 flex flex-wrap gap-2">
-                    {p.tags.slice(0, 6).map((t) => (
+                    {p.tags.map((t) => (
                       <Badge key={t}>{t}</Badge>
                     ))}
                   </div>
                 </div>
               </button>
-
               <div className="border-t border-slate-200/60 p-4 dark:border-slate-800/60">
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap items-center gap-2">
                   {p.links.live ? (
                     <a href={p.links.live} target="_blank" rel="noreferrer">
                       <Button variant="secondary" className="h-9 px-3">
@@ -146,12 +148,32 @@ export function ProjectsSection({
                       </Button>
                     </a>
                   ) : null}
+
                   {p.links.github ? (
                     <a href={p.links.github} target="_blank" rel="noreferrer">
                       <Button variant="ghost" className="h-9 px-3">
                         GitHub <Github className="h-4 w-4" />
                       </Button>
                     </a>
+                  ) : null}
+
+                  {!p.links.github && p.codeSamplesUrl ? (
+                    <a href={p.codeSamplesUrl} target="_blank" rel="noreferrer">
+                      <Button variant="ghost" className="h-9 px-3">
+                        Code samples <Github className="h-4 w-4" />
+                      </Button>
+                    </a>
+                  ) : null}
+
+                  {!p.links.github && !p.codeSamplesUrl && p.repoNote ? (
+                    <>
+                      <Badge className="border-slate-300/60 bg-slate-50 text-slate-700 dark:border-slate-700/60 dark:bg-slate-900 dark:text-slate-200">
+                        Private repo
+                      </Badge>
+                      <span className="text-xs text-slate-600 dark:text-slate-400">
+                        {p.repoNote}
+                      </span>
+                    </>
                   ) : null}
                 </div>
               </div>
