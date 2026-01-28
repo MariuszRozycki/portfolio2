@@ -6,7 +6,6 @@ import { Card } from "../ui/Card";
 import { Badge } from "../ui/Badge";
 import { Button } from "../ui/Button";
 import { asset } from "../../lib/asset";
-import { cn } from "../../lib/cn";
 
 export function ProjectsSection({
   onOpenProject,
@@ -120,16 +119,6 @@ export function ProjectsSection({
                           : p.description}
                       </p>
                     </div>
-                    <span
-                      className={cn(
-                        "mt-1 inline-flex h-9 w-9 items-center justify-center rounded-2xl",
-                        "border border-slate-200 bg-white text-slate-700 shadow-sm",
-                        "dark:border-slate-800 dark:bg-slate-950 dark:text-slate-200",
-                      )}
-                      aria-hidden
-                    >
-                      ↗
-                    </span>
                   </div>
 
                   <div className="mt-4 flex flex-wrap gap-2">
